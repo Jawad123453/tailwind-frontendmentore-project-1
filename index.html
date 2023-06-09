@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="output.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <title>Document</title>
+</head>
+<body class="box-border p-0 m-0 mainfont">
+  <header class="container mx-auto flex justify-between items-center pt-8 pb-5 px-10 relative">
+    <div>
+      <img src="./images/logo.svg">
+    </div>
+    <div>
+      <ul class="lg:flex gap-4 items-center lg:w-fit w-full absolute lg:relative bottom-0 left-0 lg:bg-transparent bg-white translate-y-[100%] lg:translate-y-0 text-DarkBlue lg:flex-row flex-col hidden rounded py-10" id="mainul">
+        <li class="hover:opacity-70"><a href="#">Pricing</a></li>
+        <li class="hover:opacity-70"><a href="#">Product</a></li>
+        <li class="hover:opacity-70"><a href="#">About Us</a></li>
+        <li class="hover:opacity-70"><a href="#">Careers</a></li>
+        <li class="hover:opacity-70"><a href="#">Community</a></li>
+      </ul>
+    </div>
+    <div class="hidden lg:block">
+      <button class="px-7 py-3 bg-BrightRed rounded-3xl text-VaryLightGray hover:opacity-70">Get Started</button>
+    </div>
+    <div class="block lg:hidden" id="barclick">
+      <i class="fa-solid fa-bars text-black text-xl"></i>
+    </div>
+    <div class="hidden" id="croseit">
+      <i class="fa-solid fa-xmark  text-black text-xl"></i>
+    </div>
+  </header>
+  <!-- landing -->
+  <landing class="container mx-auto flex justify-between py-10 px-10 items-center lg:flex-row flex-col-reverse gap-7 lg:gap-0">
+    <div class="flex flex-col gap-10 flex-1 text-center lg:text-start">
+      <h1 class="lg:text-5xl text-3xl text-DarkBlue font-bold">Bring everyone togaether to build better products.</h1>
+      <p class="text-DarkGrayishBlue lg:w-3/4 w-full">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt aliquid corrupti in nobis perferendis eaque repellat voluptas iure, aliquam alias, ullam aperiam reiciendis.</p>
+      <button class="px-7 py-3 bg-BrightRed rounded-3xl text-VaryLightGray hover:opacity-70 w-fit lg:mx-0 mx-auto">Get Started</button>
+    </div>
+    <div class="flex-1">
+      <img src="./images/illustration-intro.svg" class="w-full">
+    </div>
+  </landing>
+  <!-- nav -->
+  <nav class="container mx-auto flex justify-between py-10 px-10 lg:flex-row flex-col gap-7 lg:gap-0">
+    <div class="lg:text-start text-center">
+      <h1 class="lg:text-3xl text-2xl text-DarkBlue font-bold mb-5">Whats the different about Manage?</h1>
+      <p class="text-DarkGrayishBlue lg:w-3/4 w-full">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deseruntaliquid corrupti in nobis perferendis eaque repellat voluptas iure, aliquam alias, ullam aperiam reiciendis.</p>
+    </div>
+    <div class="flex flex-col gap-10">
+      <div class="flex gap-3 items-start md:flex-row flex-col relative w-full">
+        <h3 class="px-5 py-1 bg-BrightRed rounded-3xl text-VaryLightGray font-bold z-10">01</h3>
+        <div>
+          <h4 class="lg:text-xl text-md text-DarkBlue font-bold lg:mb-3 mb-0 md:relative absolute top-0 left-[40px] md:left-0 h-8 md:h-auto bg-VeryPaleRed md:bg-transparent flex md:block justify-start md:px-0 px-7 items-center w-full md:w-fit">Track company-wide progress</h4>
+          <p class="text-DarkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam alias asperiores incidunt unde enim blanditiis praesentium sint nobis ipsum nihil quos ad natus sunt officiis, vero suscipit nostrum illo!</p>
+        </div>
+      </div>
+      <div class="flex gap-3 items-start md:flex-row flex-col relative w-full">
+        <h3 class="px-5 py-1 bg-BrightRed rounded-3xl text-VaryLightGray font-bold z-10">02</h3>
+        <div>
+          <h4 class="lg:text-xl text-md text-DarkBlue font-bold lg:mb-3 mb-0 md:relative absolute top-0 left-[40px] md:left-0 h-8 md:h-auto bg-VeryPaleRed md:bg-transparent flex md:block justify-start md:px-0 px-7 items-center w-full md:w-fit">Advanced build-in reports</h4>
+          <p class="text-DarkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam alias asperiores incidunt unde enim blanditiis praesentium sint nobis ipsum nihil quos ad natus sunt officiis, vero suscipit nostrum illo!</p>
+        </div>
+      </div>
+      <div class="flex gap-3 items-start md:flex-row flex-col relative w-full">
+        <h3 class="px-5 py-1 bg-BrightRed rounded-3xl text-VaryLightGray font-bold z-10">03</h3>
+        <div>
+          <h4 class="lg:text-xl text-md text-DarkBlue font-bold lg:mb-3 mb-0 md:relative absolute top-0 left-[40px] md:left-0 h-8 md:h-auto bg-VeryPaleRed md:bg-transparent flex md:block justify-start md:px-0 px-7 items-center w-full md:w-fit">Everything you need in one place</h4>
+          <p class="text-DarkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam alias
+            asperiores incidunt unde enim blanditiis praesentium sint nobis ipsum nihil quos ad natus sunt officiis, vero
+            suscipit nostrum illo!</p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- what they said -->
+  <nav class="my-10 container mx-auto px-10">
+    <h1 class="w-full text-center text-DarkBlue font-bold text-3xl mb-16">What they've said</h1>
+    <div class="grid justify-between lg:grid-cols-3  md:grid-cols-2  grid-cols-1 gap-10">
+      <div class="flex text-center flex-col gap-5 justify-center items-center">
+        <img src="./images/avatar-anisha.png" class="w-14">
+        <h3 class="font-bold text-DarkBlue">Anisha Li</h3>
+        <p class="text-DarkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae excepturi. amet consectetur adipisicing elit. Porro repudiandae excepturi.</p>
+      </div>
+      <div class="flex text-center flex-col gap-5 justify-center items-center">
+        <img src="./images/avatar-ali.png" class="w-14">
+        <h3 class="font-bold text-DarkBlue">Ali Bravo</h3>
+        <p class="text-DarkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae excepturi.
+          amet consectetur adipisicing elit. Porro repudiandae excepturi.</p>
+      </div>
+      <div class="flex text-center flex-col gap-5 justify-center items-center">
+        <img src="./images/avatar-richard.png" class="w-14">
+        <h3 class="font-bold text-DarkBlue">Richard Watts</h3>
+        <p class="text-DarkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae excepturi.
+          amet consectetur adipisicing elit. Porro repudiandae excepturi.</p>
+      </div>
+    </div>
+    <div class=" text-center w-full">
+      <button class="px-7 py-3 bg-BrightRed rounded-3xl text-VaryLightGray hover:opacity-70 mt-10">Get Started</button>
+    </div>
+  </nav>
+  <!-- Terms -->
+  <div class="w-full bg-BrightRed">
+    <div class="container mx-auto flex justify-between items-center py-10 px-10 md:flex-row flex-col">
+      <h1 class="sm:text-3xl font-bold text-VaryLightGray md:text-start text-center md:mb-0 mb-5 text-xl">Simplify how your team <br>works today.</h1>
+      <button class="px-7 py-3 text-BrightRed rounded-3xl bg-VaryLightGray hover:opacity-70">Get Started</button>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="w-full bg-VeryDarkBlue">
+    <div class="container mx-auto px-10 lg:py-20 py-10 flex justify-between items-start lg:flex-row flex-col-reverse lg:gap-0 gap-10">
+      <div class="flex lg:justify-between justify-center lg:gap-0 gap-10 lg:items-start items-center lg:flex-col flex-col-reverse h-36  lg:basis-1/5 lg:w-fit w-full">
+        <img src="./images/logo.svg" class="w-48">
+        <div class="flex lg:gap-3 lg:justify-start justify-between w-full lg:w-fit">
+          <img src="./images/icon-facebook.svg">
+          <img src="./images/icon-youtube.svg">
+          <img src="./images/icon-twitter.svg">
+          <img src="./images/icon-pinterest.svg">
+          <img src="./images/icon-instagram.svg">
+        </div>
+      </div>
+      <div class="flex justify-between lg:basis-2/5 lg:w-fit w-full">
+        <ul class="flex flex-col gap-5">
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">Home</a></li>
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">pricing</a></li>
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">Products</a></li>
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">About Us</a></li>
+        </ul>
+        <ul class="flex flex-col gap-5">
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">Careers</a></li>
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">Community</a></li>
+          <li class="text-VaryLightGray hover:text-BrightRed"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="flex gap-3 lg:basis-1/5 lg:w-fit w-full " >
+        <input type="text" class="px-5 py-3 outline-none rounded-full lg:w-fit w-full"  placeholder="Update in your inbox...">
+        <button class="bg-BrightRed text-VaryLightGray px-5 py-3 rounded-full">Go</button>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
